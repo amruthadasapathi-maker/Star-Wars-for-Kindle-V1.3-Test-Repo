@@ -63,6 +63,7 @@
         <kindle:app name="com.lab126.pillow" value="yes" />
         <kindle:app name="com.lab126.chromebar" value="yes" />
         <kindle:app name="com.lab126.readnow" value="yes" />
+        <kindle:app name="com.kindlemodding.utild" value="yes" />
     </kindle:messaging>
 
     <!-- Removed jQuery, non-used JS -->
@@ -78,4 +79,5 @@
         <kindle:setting name="saveContext" value="no" />
         <kindle:setting name="disable-wua-features" value="yes" />
     </kindle:settings>
+
 </widget>
