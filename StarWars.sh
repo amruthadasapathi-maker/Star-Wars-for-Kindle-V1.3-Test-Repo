@@ -11,8 +11,8 @@ DB="/var/local/appreg.db" #KEEP THIS!
 APP_ID="xyz.rahulgreat.illusion"
 
 
-BIN_HF="$SOURCE_DIR/assets/UtildHF"
-BIN_SF="$SOURCE_DIR/assets/UtildSF"
+BIN_HF="$SOURCE_DIR/UtildHF"
+BIN_SF="$SOURCE_DIR/UtildSF"
 
 if [ -e /lib/ld-linux-armhf.so.3 ]; then
     BINARY="$BIN_HF"
